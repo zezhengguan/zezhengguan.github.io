@@ -1,0 +1,78 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<style>
+.publication-item {
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+.publication-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+.publication-title a {
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  text-decoration: underline;
+}
+
+.publication-authors {
+  font-size: 0.95em;
+  margin-bottom: 0.3em;
+  color: var(--global-description-color);
+}
+
+.publication-venue {
+  font-size: 0.95em;
+  font-style: italic;
+  margin-bottom: 1em;
+  color: var(--global-description-color);
+}
+
+.publication-excerpt {
+  font-size: 0.95em;
+  line-height: 1.6;
+  text-align: justify;
+}
+</style>
+
+{% for post in site.publications reversed %}
+  <div class="publication-item">
+    <div class="publication-title">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
+    </div>
+    <div class="publication-authors">{{ post.authors }}</div>
+    <div class="publication-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</div>
+    {% if post.excerpt %}
+      <div class="publication-excerpt">{{ post.excerpt }}</div>
+    {% endif %}
+  </div>
+{% endfor %}
+
+
+

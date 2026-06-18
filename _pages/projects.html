@@ -1,0 +1,84 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<style>
+.project-year-heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid var(--global-border-color);
+}
+
+.project-year-heading:first-of-type {
+  margin-top: 0;
+}
+
+.project-item {
+  margin-bottom: 2em;
+}
+
+.project-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+
+.project-title a {
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  text-decoration: underline;
+}
+
+.project-excerpt {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.project-image {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+</style>
+
+{% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+{% assign grouped_projects = sorted_projects | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for group in grouped_projects %}
+<h2 class="project-year-heading">{{ group.name }}</h2>
+{% for post in group.items %}
+<div class="project-item">
+<div class="project-title">
+{% if post.link %}
+<a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+{% else %}
+<a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+{% endif %}
+</div>
+{% if post.excerpt %}
+<div class="project-excerpt">{{ post.excerpt }}</div>
+{% endif %}
+{% if post.image %}
+<div class="project-image">
+<img src="{{ base_path }}/images/projects/{{ post.image }}" alt="{{ post.title }}">
+</div>
+{% endif %}
+</div>
+{% endfor %}
+{% endfor %}
