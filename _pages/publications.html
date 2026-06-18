@@ -55,6 +55,19 @@ author_profile: true
   line-height: 1.6;
   text-align: justify;
 }
+
+.publication-image {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.publication-image img {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 </style>
 
 {% for post in site.publications reversed %}
@@ -70,6 +83,11 @@ author_profile: true
     <div class="publication-venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</div>
     {% if post.excerpt %}
       <div class="publication-excerpt">{{ post.excerpt }}</div>
+    {% endif %}
+    {% if post.image %}
+      <div class="publication-image">
+        <img src="{{ base_path }}/images/papers/{{ post.image }}" alt="{{ post.title }}">
+      </div>
     {% endif %}
   </div>
 {% endfor %}
