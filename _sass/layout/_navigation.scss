@@ -174,7 +174,10 @@
 
 .greedy-nav {
   position: relative;
+  display: flex;
+  align-items: center;
   min-width: 250px;
+  padding-right: 2.5rem; /* reserve room for the absolutely-positioned hamburger button */
   background: var(--global-bg-color);
 
   a {
@@ -202,6 +205,39 @@
     z-index: 100;
   }
 
+  &__brand {
+    flex: 0 0 auto;
+    margin: 0 1rem 0 0;
+    padding: 0.5rem 0;
+    color: var(--global-masthead-link-color);
+  }
+
+  &__center {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__theme-toggle {
+    flex: 0 0 auto;
+
+    a {
+      width: 25px;
+      margin-right: 0;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    #theme-icon.fa-sun {
+      color: #f5a623;
+    }
+
+    #theme-icon.fa-moon {
+      color: #5b6ee1;
+    }
+  }
+
   .visible-links {
     display: table;
 
@@ -210,9 +246,6 @@
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
-        text-wrap: wrap;
-
         a {
           margin-left: 0;
         }
@@ -222,15 +255,6 @@
         a {
           margin-right: 0;
         }
-      }
-    }
-
-    #theme-toggle {
-      a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
       }
     }
 

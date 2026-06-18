@@ -44,6 +44,12 @@ author_profile: true
   line-height: 1.6;
 }
 
+.project-resources {
+  font-size: 0.9em;
+  margin-bottom: 0.6em;
+  color: var(--global-description-color);
+}
+
 .project-image {
   margin-top: 1em;
   text-align: center;
@@ -71,6 +77,13 @@ author_profile: true
 <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
 {% endif %}
 </div>
+{% if post.resources %}
+<div class="project-resources">
+{% for resource in post.resources %}
+<a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+</div>
+{% endif %}
 {% if post.excerpt %}
 <div class="project-excerpt">{{ post.excerpt }}</div>
 {% endif %}
