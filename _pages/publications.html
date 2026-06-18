@@ -12,14 +12,13 @@ author_profile: true
 {% include base_path %}
 
 <style>
-.publication-item {
-  margin-bottom: 3em;
-  padding-bottom: 2em;
-  border-bottom: 1px solid var(--global-border-color);
+.wordwrap {
+  margin-bottom: 2em;
 }
 
-.publication-item:last-child {
-  border-bottom: none;
+.publication-item {
+  margin-bottom: 1.5em;
+  padding-bottom: 0.5em;
 }
 
 .publication-title {
@@ -68,9 +67,16 @@ author_profile: true
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+.publication-image-divider {
+  margin-top: 1.5em;
+  border: none;
+  border-top: 2px solid #555;
+}
 </style>
 
-{% for post in site.publications reversed %}
+{% assign sorted_publications = site.publications | sort: 'order' %}
+{% for post in sorted_publications %}
   <div class="publication-item">
     <div class="publication-title">
       {% if post.paperurl %}
@@ -88,6 +94,7 @@ author_profile: true
       <div class="publication-image">
         <img src="{{ base_path }}/images/papers/{{ post.image }}" alt="{{ post.title }}">
       </div>
+      <hr class="publication-image-divider">
     {% endif %}
   </div>
 {% endfor %}
