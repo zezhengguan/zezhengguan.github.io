@@ -20,8 +20,8 @@ Building on these foundations, the project was later incubated under the name Pi
 
 ## Media Coverage
 
-- [Overview from RoboScope](https://www.media.mit.edu/projects/roboscope/overview/)
-- [Overview from Immersive Design Group](https://www.immersivedesignresearch.com/UABB)
+- [Project overview from MIT Media Lab](https://www.media.mit.edu/projects/roboscope/overview/)
+- [Project overview from Immersive Design Group](https://www.immersivedesignresearch.com/UABB)
 - [Report from School of Design, SUSTech](https://designschool.sustech.edu.cn/news/774.html)
 
 ## Resources
