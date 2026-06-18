@@ -2,8 +2,8 @@
 title: "Shape-Shifting Pin Table"
 collection: projects
 date: 2025-01-01
-permalink: /project/2025-01-01-shape-shifting-pin-table
-excerpt: 'An actuated pin-array surface that renders digital content as dynamic, touchable physical relief, developed with the Immersive Design Group and industry partners and awarded an iF Design Award.'
+permalink: /project/shape-shifting-pin-table
+excerpt: 'An actuated pin-array display that renders digital content as dynamic, touchable physical relief, developed with the Immersive Design Group and industry partners and awarded an iF Design Award.'
 image: Shape_shifting_Pin_Table1.jpg
 resources:
   - name: "Immersive Design Group"

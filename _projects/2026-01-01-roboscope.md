@@ -2,7 +2,7 @@
 title: "RoboScope: a Shape-Changing Display Enabling On-Demand, 3D Tangible Interaction"
 collection: projects
 date: 2026-01-01
-permalink: /project/2026-01-01-roboscope
+permalink: /project/roboscope
 excerpt: 'RoboScope is a modular pin-array display that lets users interact with and visualize volumetric transformations of an urban landscape through an array of motorized 3D-Pixels.'
 image: RoboScope.png
 resources:
