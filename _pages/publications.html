@@ -11,70 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-<style>
-.wordwrap {
-  margin-bottom: 2em;
-}
-
-.publication-item {
-  margin-bottom: 1.5em;
-  padding-bottom: 0.5em;
-}
-
-.publication-title {
-  font-size: 1.1em;
-  font-weight: bold;
-  margin-bottom: 0.5em;
-  line-height: 1.4;
-}
-
-.publication-title a {
-  text-decoration: none;
-}
-
-.publication-title a:hover {
-  text-decoration: underline;
-}
-
-.publication-authors {
-  font-size: 0.95em;
-  margin-bottom: 0.3em;
-  color: var(--global-description-color);
-}
-
-.publication-venue {
-  font-size: 0.95em;
-  font-style: italic;
-  margin-bottom: 1em;
-  color: var(--global-description-color);
-}
-
-.publication-excerpt {
-  font-size: 0.95em;
-  line-height: 1.6;
-  text-align: justify;
-}
-
-.publication-image {
-  margin-top: 1em;
-  text-align: center;
-}
-
-.publication-image img {
-  width: 100%;
-  max-width: 550px;
-  height: auto;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.publication-image-divider {
-  margin-top: 1.5em;
-  border: none;
-  border-top: 2px solid #555;
-}
-</style>
-
 {% assign sorted_publications = site.publications | sort: 'order' %}
 {% for post in sorted_publications %}
   <div class="publication-item">
@@ -98,6 +34,5 @@ author_profile: true
     {% endif %}
   </div>
 {% endfor %}
-
 
 

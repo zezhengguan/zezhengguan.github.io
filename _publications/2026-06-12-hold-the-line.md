@@ -3,7 +3,7 @@ title: "Hold the line: Restoring artistic expression in VR for people with Parki
 collection: publications
 category: manuscripts
 permalink: /publication/2026-06-12-hold-the-line
-excerpt: "This work explores VR drawing for artistic expression in people with Parkinson's disease (PwPD). We conducted a formative study with 8 PwPD participants to understand their needs, implemented tremor-suppression techniques validated through a technical evaluation with 24 non-PwPD participants, and conducted a follow-up study with 8 PwPD participants to test the refined system."
+excerpt: "Hold the Line presents an accessible VR drawing application co-designed with people with Parkinson's disease (PwPD). It supports 3D calligraphy and drawing through a real-time tremor-smoothing filter designed to improve stroke smoothness while supporting control, confidence, and emotional comfort."
 date: 2026-06-12
 venue: "International Journal of Human-Computer Studies"
 paperurl: "https://www.sciencedirect.com/science/article/pii/S1071581926001370"
@@ -13,4 +13,6 @@ image: holdtheline.png
 order: 1
 ---
 
-Due to tremor and reduced motor control, people with Parkinson's disease (PwPD) often lose the ability to smoothly perform digital inputs requiring fine motor skills. Virtual Reality (VR) drawing offers multisensory and multidirectional stimulation, which may support physical and emotional well-being in PwPD. While drawing has long been recognised as a meaningful activity for expression and motor engagement, its implementation in VR contexts remains underexplored for this population. This work explores VR drawing for artistic expression in PwPD. We conducted a formative study with 8 PwPD participants to understand their needs, implemented tremor-suppression techniques validated through a technical evaluation with 24 non-PwPD participants, and conducted a follow-up study with 8 PwPD participants to test the refined system. We found that our tremor-filtered system enhances users' confidence, enjoyment, and emotional engagement. We provide design implications for accessible VR art-making and discuss the potential of immersive tools to support creativity and artistic expression for PwPD.
+Tremor and reduced motor control can make fine-grained digital input difficult for people with Parkinson's disease (PwPD), limiting opportunities for artistic expression. Hold the Line is an accessible VR drawing application co-designed with PwPD that supports 3D calligraphy and drawing tasks. Its real-time tremor-smoothing filter reduces involuntary motion in the drawing input and improves stroke smoothness.
+
+The research combined a formative study with PwPD, a technical evaluation of tremor-suppression techniques, and a follow-up study using the refined system. The tremor-filtered system supported confidence, enjoyment, emotional engagement, and a greater sense of control while drawing. The work concludes with design implications for accessible VR art-making and for immersive tools that support creativity and artistic expression for PwPD.

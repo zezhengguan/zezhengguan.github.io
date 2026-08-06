@@ -3,17 +3,17 @@
     ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #0ea1c5;
+$primary-color              : #f0a06d;
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
-$background                 : #474747;
+$background                 : #2d2926;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #ffffff;
-$link                       : #0ea1c5;
+$link                       : #f2a777;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 
@@ -41,8 +41,8 @@ html[data-theme="dark"] {
     --global-footer-bg-color            : #{$background};
     --global-border-color               : #{$light-gray};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
+    --global-code-background-color      : #3a342f;
+    --global-code-text-color            : #f2e7df;
     --global-fig-caption-color          : #{$light-gray};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
@@ -50,7 +50,13 @@ html[data-theme="dark"] {
     --global-masthead-link-color        : #{$text};
     --global-masthead-link-color-hover  : #{$primary-color};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
+    --global-text-color-light           : #d2c2b7;
     --global-thead-color                : #{$background-lighter};
+    --global-surface-color              : #37312d;
+    --global-surface-muted-color        : #403730;
+    --global-accent-soft-color          : #533d30;
+    --global-masthead-bg-color          : rgba(45, 41, 38, 0.9);
+    --global-card-shadow                : 0 10px 30px rgba(0, 0, 0, 0.16);
+    --global-card-shadow-hover          : 0 18px 42px rgba(0, 0, 0, 0.26);
+    --global-focus-ring                 : rgba(242, 167, 119, 0.36);
 }
-
