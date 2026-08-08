@@ -154,6 +154,17 @@ button:focus-visible,
     border-radius: 14px;
     box-shadow: var(--global-card-shadow);
   }
+
+  a.about-profile-link {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--global-link-color-hover);
+      text-decoration: underline;
+    }
+  }
 }
 
 .author__avatar img {
@@ -324,7 +335,7 @@ button:focus-visible,
 .project-image {
   margin-top: 1.1em;
   overflow: hidden;
-  border-radius: 14px;
+  border-radius: 0;
   text-align: center;
   background: var(--global-surface-muted-color);
 
@@ -334,7 +345,7 @@ button:focus-visible,
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    border-radius: 14px;
+    border-radius: 0;
     box-shadow: none;
     transition: transform 500ms cubic-bezier(0.2, 0.7, 0.2, 1);
   }
@@ -343,6 +354,38 @@ button:focus-visible,
 .publication-item:hover .publication-image img,
 .project-item:hover .project-image img {
   transform: scale(1.018);
+}
+
+.project-detail-video {
+  margin: 1.6em 0;
+  overflow: hidden;
+  border-radius: 0;
+  background: #111;
+  line-height: 0;
+
+  video {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0;
+    background: #111;
+  }
+}
+
+.project-detail-gallery {
+  display: grid;
+  gap: 1rem;
+  margin: 0 0 1.6em;
+
+  .page__content & img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+  }
 }
 
 .publication-image-divider {

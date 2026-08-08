@@ -23,7 +23,7 @@ author_profile: true
 {% if post.resources %}
 <div class="project-resources">
 {% for resource in post.resources %}
-<a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a>{% unless forloop.last %}, {% endunless %}
+<a href="{{ resource.url }}" target="_blank">{{ resource.name }}</a>
 {% endfor %}
 </div>
 {% endif %}

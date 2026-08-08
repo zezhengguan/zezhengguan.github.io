@@ -18,7 +18,12 @@ RoboScope is a transformable tangible interface developed for the CityScope plat
 
 The current SUSTech-MIT collaboration, supported by the 2024-2025 MIT Greater China Fund for Innovation, builds on the City Science Group's initial small-scale prototype. The City Science Group at MIT Media Lab and the Immersive Design Group at SUSTech are developing a larger, smarter, more reliable, and scalable pin-array display by combining CityScope research with design-for-manufacturing expertise in Shenzhen. The accompanying data-driven platform is intended to help city stakeholders, citizens, public officials, and developers manipulate and visualize a shared urban vision and iteratively explore sustainable, livable, and equitable urban futures.
 
-RoboScope was also presented at The 10th Bi-City Biennale of Urbanism/Architecture (UABB, Shenzhen) in 2025, bringing the research into a public setting for discussion around collaborative urban planning and community visioning.
+## Exhibitions
+
+- **The 20th China (Shenzhen) International Cultural Industries Fair (ICIF 2026)**<br>
+  第20届中国（深圳）国际文化产业博览交易会
+- **The 10th Bi-City Biennale of Urbanism/Architecture (UABB, Shenzhen)**<br>
+  第十届深港城市建筑双城双年展（深圳）
 
 ## Media Coverage
 
