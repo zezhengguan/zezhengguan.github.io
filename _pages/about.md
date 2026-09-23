@@ -20,12 +20,14 @@ redirect_from:
 }
 </style>
 
-Hi! I am Zezheng Guan, an incoming PhD student and Marie Curie Research Fellow at the <a class="about-profile-link" href="https://www.birmingham.ac.uk/">University of Birmingham</a>. I will join the <a class="about-profile-link" href="https://virtualrealitylab.netlify.app/">Virtual Reality Lab</a> under the supervision of Prof. <a class="about-profile-link" href="https://massimilianodiluca.info/">**Massimiliano Di Luca**</a>.
+Incoming PhD researcher and Marie Curie Research Fellow at the <a class="about-profile-link" href="https://www.birmingham.ac.uk/">University of Birmingham</a>. My research lies at the intersection of **Human-Computer Interaction**, **Haptics**, **Multisensory Perception**, and **Extended Reality**, exploring how visual, haptic, and proprioceptive cues shape perception and exploratory behaviour during active surface interaction.
 
-I received my Master's degree from the School of Design at the <a class="about-profile-link" href="https://www.sustech.edu.cn/">Southern University of Science and Technology</a>, where I was supervised by Prof. <a class="about-profile-link" href="https://immersivedesignresearch.com/seungwoo">**Seungwoo Je**</a> in the <a class="about-profile-link" href="https://immersivedesignresearch.com/">Immersive Design Group</a>.
+## Research Profile
 
-My research lies at the intersection of **Human-Computer Interaction**, **Haptics**, **Multisensory Perception**, and **Extended Reality**. As part of the EXPLORA Marie Skłodowska-Curie Doctoral Network, my research will build Mixed Reality experiments, record and characterise exploratory hand movements during unconstrained surface exploration and model the integration of multisensory information & responses about object attributes. 
+Hi! I am Zezheng Guan, an incoming PhD researcher and Marie Curie Research Fellow in the <a class="about-profile-link" href="https://virtualrealitylab.netlify.app/">Virtual Reality Lab</a> at the <a class="about-profile-link" href="https://www.birmingham.ac.uk/">University of Birmingham</a>, supervised by Prof. <a class="about-profile-link" href="https://massimilianodiluca.info/"><strong>Massimiliano Di Luca</strong></a>. My doctoral research is part of the EXPLORA Marie Skłodowska-Curie Doctoral Network.
 
-Building on my previous research in haptics and interactive systems, I am passionate about mechanical design, hardware prototyping, embedded systems, and turning interaction concepts into functional research prototypes.
+My doctoral work combines mixed-reality experiments, exploratory hand-motion data, and computational modelling to investigate how multisensory information is integrated during surface exploration and how it shapes the perception of surfaces and object properties. Building on my previous research in haptics and interactive systems, I also have a strong hands-on interest in mechanical design, hardware prototyping, and embedded systems, particularly in turning interaction concepts into functional research prototypes.
+
+Previously, I completed my Master's degree at the <a class="about-profile-link" href="https://www.sustech.edu.cn/">Southern University of Science and Technology</a> under the supervision of Prof. <a class="about-profile-link" href="https://immersivedesignresearch.com/seungwoo"><strong>Seungwoo Je</strong></a> in the <a class="about-profile-link" href="https://immersivedesignresearch.com/">Immersive Design Group</a>. During my Master's studies, my research focused on **Shape-Changing Displays**, **Haptic Interaction**, **Bimanual Interaction**, and **Virtual Reality**.
 
 I am always open to research discussions, collaboration opportunities, and new ideas. Please feel free to connect with me.
